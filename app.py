@@ -33,7 +33,7 @@ if st.button("Analyze"):
             "Content-Type": "application/json"
         }
         data = {
-            "model": "claude-3",
+            "model": "claude-2",
             "max_tokens": 500,
             "messages": [{"role": "user", "content": prompt + "\n\n" + file_content}]
         }
